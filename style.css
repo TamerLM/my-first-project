@@ -1,0 +1,110 @@
+@import url('https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900');
+*{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    text-align: center;
+
+}
+header  div p , h1{
+    color: rgb(78, 76, 76);
+}
+
+.badis{
+    height: 650px;
+    background-image:
+    linear-gradient(rgb(0, 0, 0),rgba(16, 16, 36, 0.199)),
+    url(img.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+     color: rgb(85, 84, 84);
+    animation-name: ke;
+    animation-duration: 4s;
+    text-align: center;
+}
+@keyframes ke{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+    
+}
+a{
+    color: rgb(87, 82, 82);
+    text-decoration: none;
+}
+header .me {
+    display: flex;
+    justify-content: space-between;
+    color:rgb(78, 76, 76) ;
+
+}
+.me .ka{
+    text-align:right;
+    color:rgb(78, 76, 76) ;
+
+    
+}
+.me .mi{
+    text-align: left;
+    color:rgb(78, 76, 76) ;
+}
+.me{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.uno{
+    height: 450px;
+    background-image:
+    linear-gradient(to right , rgb(22, 22, 22) , rgba(0, 0, 0, 0.315)),
+    url(img.png.3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    box-shadow: 0px -50px 50px black;
+}
+.uno .jji,.nna,.ffi , u{
+    color: rgb(97, 97, 97);
+    width: 45%;
+}
+.gle{
+    height: 750px;
+    color: rgb(97, 97, 97);
+    background-image: 
+    linear-gradient(rgb(8, 8, 10) , rgba(23, 23, 31, 0.466)),
+    url(img.png.4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 0px -30px 50px black;
+}
+.pa{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pa li a{
+    color: rgba(37, 34, 34, 0.87);
+}
+.pa li img{
+    border-radius: 90px 90px 90px 90px ;
+}
+.gle footer , .no{
+    color: rgb(236, 174, 116);
+}
+.gle .pa .ho{
+    color: rgb(170, 159, 94);
+}
+
+

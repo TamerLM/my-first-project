@@ -1,0 +1,113 @@
+@import url('https://fonts.google.com/share?selection.family=Gidole');
+*{
+    font-family: 'Gidole',Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    color: rgb(66, 66, 66);
+    background-color: black;
+}
+.glc {
+    height:750px;
+    background-image:
+    linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.623)),
+    url(img.png.10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align:center ;
+    color: rgb(109, 108, 108);
+    animation-name: glc;
+    animation-duration: 4s;
+}
+.glc .flafi{
+
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+header .me {
+    display: flex;
+    justify-content: space-between;
+    color:rgb(78, 76, 76) ;
+
+}
+a{
+    color: rgb(87, 82, 82);
+    text-decoration: none;
+}
+.me{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@keyframes glc{
+    0%{
+        height: 10%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+.light{
+    height: 650px;
+    background-image:
+    linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.445)),
+    url(img.png.11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px -40px 60px black;
+    
+}
+.light .km{
+    text-align: center;
+    color: rgb(87, 86, 86);
+    height:max-content;
+}
+.light .gle{
+    width: 75%;
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+.light .k{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    animation-name: badis;
+    animation-duration: 6s;
+
+}
+@keyframes badis{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.ji{
+    height: 350px;
+    background-image: 
+    linear-gradient(to left, rgba(0, 0, 0, 0.849),rgba(12, 12, 15, 0.603)),
+    url(img.png.7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 0px -40px 65px black;
+    
+}
+footer{ 
+    color: rgb(202, 154, 99);
+    text-align: center;
+    
+}
+footer .kka .no{
+    color: rgb(189, 163, 92);
+    list-style: none;
+}
+
+
